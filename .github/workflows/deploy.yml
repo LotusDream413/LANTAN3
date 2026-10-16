@@ -33,7 +33,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './dist' # 确保这里指向你的构建输出目录
+          path: './dist' # 确保这里指向你的构建输出目录1
 
       - name: Deploy to GitHub Pages
         id: deployment
